@@ -1,0 +1,1899 @@
+  print("hello world")
+  print(7)
+   comments escape system
+  print("i am a student of MNS UET MULTAN \nand my degree is COMPUTER SCIENCE \nand I AM A \"GOOD BOY\"")
+   variable are the container inside the memory
+ a=(91,12)
+
+ print(a)
+ print("the type of a is",type (a))
+  print(type(b))
+  list
+ list1=["banana","mango","apple","grapes","gawa"]
+ animal=["donkey","cat","dog",]
+ print(list1)
+ print(animal)
+  tuple
+ list1={"banana","mango","apple","grapes","gawa"}
+ print(list1)
+
+
+a=int(input("enter the first vale"))
+b=int(input("enter 2nd value"))
+print("the addition of these no is" ,a+b)
+print("the substraction of these no is",a-b)
+print("the multiplication of these no is",a*b)
+print("the division of two no is",a/b)
+
+ a=3
+ b=2
+ print("the value of" ,a,"+" ,2,"is:", a+b)
+ print("the value of" ,a,"+" ,2,"is:", a-b)
+ print("the value of" ,a,"+" ,2,"is:", a/b)
+ print("the value of" ,a,"+" ,2,"is:", a*b)
+ day 9
+ topic:type casting
+ type casting is the conversion of one data type in to another data type.
+ example:
+ a="2"
+  b="3"
+  print(int (a) + int(b))
+  two type of casting:
+  explicit conversion:(changing of data type when user need)
+  implicit conversion:(changing of data type when python interpreter itself)
+
+ example:
+ string="12"
+ number=2
+ string_number=(int(string)
+ sum= number + string number
+ print("the sum of both number is:"sum)
+ a=2
+ print(type(a))
+ b=3.0
+ print(type(b))
+ c=a + b
+ print(c)
+ print(type(c))
+ DAY 10
+ HOW TO GIVE INPUT FROM USER
+
+ a=(input("enter the name"))
+ print("my name is saad ali hamid ")
+ list1=("banana","grapes","mango","orange")
+ print(type(list1))
+ print(list1)
+
+ day 11 topic=string=IN python any thing that u r written in single or double quotation is considered as a string.
+ name="saad"
+ friend="alishan"
+ another ="ahmad"
+ apple='''he said,
+  hy dear
+ how are u
+ i am good
+ "i want to eat an apple'''
+ print(apple)
+ print(friend)
+ print("what is your hobby",another,)
+
+ print("hy,"+friend)
+ print("how are u,"+another)
+ print(name[0])
+ print(name[1])
+ print(name[2])
+ print(name[3])
+ print("let use for  loop")
+ for character in apple:
+     print(character)
+ name= "saad,ali"
+ print(len(name))
+ FRUIT="mango"
+ len1=(len(FRUIT))
+ print("MANGO IS A",len1, "letter word")
+ print(FRUIT[0:4])
+ ANIMAL="dogcat"
+ len2=(len(ANIMAL))
+ print("DOG or cat IS A ",len2,"character word ")
+ print(ANIMAL[:4])
+ animal= "sparrow"
+ len1=(len(animal))
+ print("sparrow is a ",len1,"character word")
+ QUICK QUIZ:
+ nm= " harry"
+ print (nm[-4:-2])
+
+ 14 string methord in python
+ string are immutable:
+ a="physics  math  chemistry biology"
+ print(len(a))
+ print(a.upper())
+ print(a.lower())
+  print(a.rstrip("!")) strip can remoue exclamation marks
+ print(a.replace("saad","ahmad",))
+ print(a.replace("ali","hamid"))
+ print(a.split(" ")) it can make a list
+ heading="indroduction to JAVA script"
+ print(heading.capitalize())
+ str1="I am saad"
+   print(leprint(str1.count("ALI"))n( str1 ))
+   print(len(str1.center(120)))
+  print(str1.count("SAAD"))
+  print(str1.endswith("SAAD",3,9))
+  print(str1.find("ALI"))
+  print(str1.isalnum())
+  print(str1.isalpha())
+  print(str1.islower())
+  print(str1.isprintable())
+  print(str1.isspace())
+  print(str1.isalpha())
+ print(str1.title())
+ print(str1.swapcase())
+
+ day14 (if else condition)
+ a=int(input("enter your age"))
+ print ("your age is:", a)
+
+ if(a>18):
+     print("you can drive")
+ else:
+     print("you cannot drive")
+
+ appleprice=210
+ budget=220
+ if(appleprice<=budget):
+     print("saad add 1kg apple to the basket")
+ else:
+     print("saad donot add apple to the basket")
+ num =int(input("enter the of num:"))
+ if(num<0):
+ /     print("value is negative")
+ elif(num==0):
+     print("value is zero")
+ else:
+     print("value is positive ")
+ num =18
+ if (num<0):
+     print("number is negative")
+ elif (num > 0):
+     if (num <= 10):
+         print("number is between 1-10")
+     elif(num> 10 and num<=20):
+         print("number is betweenn 11-20")
+     else:
+         ("numner is greater than 20")
+
+ a=33
+ b=23
+ if(a>b):
+     print("a is greater than b")
+ elif(b>a):
+     print("b is greater than a")
+ book=int(input("enter the book name"))
+ if (book ==physics):
+   print("pysics 9","pysics 10","pysics 11")
+ if (book ==math):
+     print("math 9","math 10","math 11")
+ if(book ==chemistry):
+     print("chemistry 9","chemistry 10","chemistry 11")
+ import time
+ time1 = int(time.strftime("%H"))
+ time2 = time.strftime("%H:%M:%S")
+ print(time2)
+
+ if time1 >= 6 and time1 < 12:
+   print("Good Morning")
+ elif time1 == 12:
+   print("Good Noon")
+ elif time1 > 12 and time1 < 16 :
+   print("Good Afternoon")
+ elif time1 >= 16 and time1 <= 19:
+   print("Good Evening")
+
+ from _datetime import datetime
+ curr= datetime.now()
+ print (curr)
+ import pandas
+ print("hi")
+
+ a=9
+ b=3
+ print("the value of" ,a,"+" ,2,"is:", a+b)
+ print("the multiplication of two no is",a,"*",b,"is:",a*b)
+ print("the addition of two number is",a,"+",b,"is:",a+b)
+ print("teh substraction of two no is",a,"-",b,"is:",a-b)
+ print("teh division of two no is",a,"/",b,"is:", a/b)
+ THIS IS A COMMENT
+ '''
+ print("hy I AM saad ali hamid\n.I am a student of MNS UET MULTAN.")
+ print("MY father name is HAMID QAYYUM\n.HE is a Governament employee.")
+ '''
+ THIS IS A ESCAPE SEQUENCE
+ print("I AM A \"GOOD BOY\"AND YOU ARE ALSO AGOOD BOY")
+ print("HY",6, 7,sep="~")
+ print("I AM A \"BOY\"")
+ program:
+
+ import time
+ time1= int(time.strftime("%H"))
+ time2=time.strftime("%H:%M:%S")
+ print(time2)
+ if time1 >=6 and time1<=12:
+     print("good morning")
+ elif time1>12 and time1<=16:
+     print("good afternoon")
+ elif time1>16 and time1<=19:
+     print("good evening")
+
+ import time
+ time1=int(time.strftime("%H"))
+ time2=time.strftime("%H:%M\:%S")
+ print(time2)
+ if time1>=6 and time1<=12:
+     print("good morning")
+ elif time1>=12 and time1<16:
+     print("good afternoon")
+ elif time1>=16 and time1<=19:
+     print("good evening")
+ a=complex(6,6)
+ print(a)
+ b="saad"
+
+ print("the type of a is:",type(a))
+ print("the type of b is:",type(b))
+
+ tup=(1,5)
+ print(type(tup),tup)
+
+ tuple1=(1,2,3,4,5,"green")
+ tuple2=("banana","mango","orange","grapes")
+ print(tuple1)
+ print(tuple2)
+ print(tuple1[0])
+  print(tuple1[1])
+ print(tuple1[2])
+ print(tuple1[3])
+ print(len(tuple1))
+ print(tuple1[-1])
+
+ type casting
+ two type of type casting
+ Explicit conversion?
+
+ string="12"
+ no=2
+ string_no= int(string)
+ sum=no + string_no
+ print("the sum of two number is:",sum)
+
+ name="saad"
+ friend="ali"
+ anotherfriend='abdulahad'
+ print("my best friend is,:" + anotherfriend)
+ print("my class mate friend is:,"+friend)
+
+ names="saadali"
+  print(names[0:4])
+ len1=len(names)
+ print("saadali is the",len1,
+       "letter word.")
+
+ fruit="mango"
+ len1=len(fruit)
+ print("mango is the",len1,"letter word")
+
+ if else statement
+ a=int(input("enter your age"))
+ print("your age is:",a,)
+ if (a>=18):
+     print("you can drive now")
+ else:
+     print("you cannot drive now")
+ mangoprice=200
+ budget=210
+ if(mangoprice<=budget):
+     print("I bought 2 kg mango from this shop:")
+ else:
+     print("i cannot bought mango froom this shop:")
+
+ saad=input("enter the saad marks")
+ ali =input("enter the ali marks")
+ if(saad > ali ):
+     print("saad marks is higher")
+ else:
+     print("ali marks is greater")
+ import time
+ time1=int(time.strftime("%H"))
+ time2=time.strftime("%H:%M\:%S")
+ print(time2)
+ if time1>=6 and time1<=12:
+     print("good morning")
+ elif time1>=12 and time1<16:
+     print("good afternoon")
+ elif time1>=16 and time1<=19:
+     print("good evening")
+ import time
+ time1=int(time.strftime('%H'))
+ time2=time.strftime("%H:%M:S")
+     print("time2")
+
+ for loop
+ name ="SAAD"
+ for i in name:
+     print(i,end=" ")
+ if(i=="A"):
+     print("this is something special no")
+ colors=["red","green","blue"]
+ for color in colors:
+     print(color,)
+     for i in color:
+         print(i)
+      if(color=="red"):
+          print("this is my favourite colour")
+
+ lan_list=["java","python","c++","oop","assemble"]
+ for lan in lan_list:
+     print(lan)
+     for i in lan:
+         print(i)
+
+ student=["saad","ali","hamid","ahmad","usman"]
+ for std in student:
+    print(std)
+    if(std=="saad"):
+        print("this is good student")
+
+ RANGE IN FOR LOOP
+ for i in range(5):
+     print(i+1)
+
+ for k in range(20,30,4):
+   print(k,end=" ")
+
+ lang = ["java","python","c++","oop"]
+ for lan in lang:
+       if lan == "python":
+           break
+           print(lan,end=" ")
+ lang_list = ["Python", "JavaScript", "PHP", "Rust", "Solidity", "Assembly"]
+
+ for lang in lang_list:
+     if lang == "Rust":
+         break
+     print(lang, end=" ")
+
+
+ WHILE LOOP
+ i=80
+ while(i<99):
+     print(i)
+     i=i+1
+
+ i=int(input("enter the value"))
+ while(i<=18):
+     i=int(input("enter the value"))
+     print(i)
+
+  print("code is finised")
+
+ count=6
+ while(count>0):
+     print(count)
+     count=count-1
+ total=0
+ number = int(input("enterv the numb:"))
+ while number!=0:
+  total=total+number
+ number=int(input("enter the numb"))
+ print("total =",total)
+
+ program to calculate the sum of numbers
+ until the user enters zero
+
+ total = 0
+
+ number = int(input('Enter a number: '))
+
+  add numbers until number is zero
+ while number != 0:
+     total = total + number
+
+      take integer input again
+     number = int(input('Enter a number: '))
+
+ print('total =', total)
+
+ counter=0
+ while(counter<3):
+  print("inside the loop")
+  counter=counter+1
+ "
+ """i=0
+ while(i<3):
+     print(i)
+     i=i+1
+     """"""
+
+ i=int(input("enter the number:"))
+ while(i<=25):
+     i=int(input("enter the number:"))
+     print(i)
+     i=i+1
+ else:
+     print("program closed")
+ TABLE OF 5
+ for i in range(11):
+     print("5 X ",i,"=", 5*i )
+     i=i+1
+
+ for i in range(11):
+     print("7 x",i,"=",7*i)
+     i=i+1
+     if(i==7):
+         break
+     else(i==8):
+         continue
+
+ function
+ def calculategmean(a, b):
+     mean = (a * b) / (a + b)
+     print(mean)
+     a = 5
+     b = 7
+     calculategmean(a, b)
+ def average(a=4,b=5):
+  print("the average of two no is",(a+b)/2)
+ average(6,7)
+ def name (fname,mname="ali",lname="hamid"):
+  print("hello",fname,mname,lname)
+ name("saad")
+ def mean(c,d):
+     add="the addition of two no is",a+b
+     print(add)
+     c=3
+     d=5
+     mean(c,d)
+
+list
+ l=[2,8,9]
+ print(type(l))
+ if 10 in l:
+     print ("yes")
+ else:
+     print("no")
+ lst=[i*i for i in range(10)if i%2==0]
+ print(lst)
+
+ APPEND METHORD(ADD MORE VALUE NO)
+list1=[1,6,7,8,9,3,6]
+ print(list1)
+ list1.append(2)
+ print(list1)
+
+  SORT METHORD(ARRANGE IN POSITION)
+ L=[23,0,1,56,8,9,11,19]
+ L.sort()
+ print(L)
+  REVERSE ORDER
+ L.sort(reverse=True)
+ print(L)
+ print(list1.index(7))
+ print(list1.count(6))
+ print(list1.copy())
+ list1.insert(1,11)
+ print(list1)
+m=[200,300,400]
+list1.extend(m)
+ k=list1+m
+ 
+ print(k)
+
+ TUPLE
+ tup=(1,3,5,343,344)
+ print(tup)
+ if 344 in tup:
+     print("yes 344 is present in this tuple")
+
+ METHORD OF TUPLE:(we change the list in to tuple)
+ countries=("england","pakistan","russia","india")
+ temp=list(countries)
+ temp.append("corea")
+ temp.pop(3)
+ temp[2]="finland"
+ countries=tuple(temp)
+ print(countries)
+ countries=("england", "pakistan", "russia", "india")
+ country2=("afghanistan","iran","iraq","sera")
+ join=countries+country2
+ print(join)
+ tuple1=(0,1,2,3,4,5,6,7,8,9,3,3,3)
+ obj=tuple1.count(3)
+ print("cout of 3 in tuple 1 is",obj)
+
+ import time
+ t=time.strftime('%H:%M:%S')
+ hour=int(time.strftime('%H'))
+ print(hour)
+
+ if (hour>0 and hour<12):
+     print("good morning")
+     else (hour>12 and hour<6):
+         print("good evening")
+         else (hour>6 and hour<24):
+             print("good night")
+ import time
+ time1=int(time.strftime("%H"))
+ time2=time.strftime("%H:%M\:%S")
+ print(time2)
+ if time1>=6 and time1<=12:
+     print("good morning")
+ else time1>=12 and time1<16:
+     print("good afternoon"
+
+ import time
+ time1=time.strftime("%H,%M,%S")
+ hour=int(time.strftime("%H"))
+ hour=int(input("enter the time:  "))
+ print(hour)
+
+ if(hour>=6 and hour<=12):
+     print("good morning")
+ elif(hour>=12 and hour<=17):
+     print("good evening")
+ elif(hour>=17 and hour<=24):
+     print("good night")
+ KBC=("WELCOME TO KON BANY GA KAROR PATTY SHOW")
+ print(KBC)
+ price="1000000 rupees is price of this game"
+ print(price)
+
+ Q1=['who was the capital of pakistan']
+ print(Q1)
+ opt=["karachi","Quetta","peshawar","islamabad"]
+ print(opt)
+
+  opt=int(input("1:karachi,2:quetta,3:peshawar4:islamabad"))
+ if opt ==["islamabad"]:
+
+     print("your answer is correct and you won 10000 rupees ")
+ else:
+     print("your answer is wrong and you dont won a price")
+
+
+
+ 1)                                                   FUNCTION IN PYTHON practice
+ def calculategmean(a,b):
+  mean=(a*b)/(a+b)
+  print(mean)
+
+ a=3
+ b=5
+ if(a>b):
+     print("a is greater than b")
+ else:
+     print("b is greater than a")
+ calculategmean(a,b)
+
+ 2)
+ def additionno(c,d,e):
+     add=(c+d+e)
+     print(add)
+
+ c=9
+ d=6
+ e=7
+ additionno(c,d,e)
+ def number(a,b):
+     add=(a+b)
+     print(add)
+     a=8
+     b=9
+     if (a>b):
+        print("a is greater")
+     else:
+         (b>a)
+         print("b is greater")
+         number(a,b)
+ def isgreater(a,b):
+     if (a>b):
+         print("a is graeter than b")
+     else:
+         print("b is greater than a")
+
+ a=7
+ b=9
+ isgreater(a,b)
+
+
+ ist=[4,7,9,5,8,1,3,0]
+ print(list)
+ print(list[0:5:2])
+                                                practice for loop
+
+ color=["red","green","pink","yelow","blue"]
+ for colour in color:
+     print(colour)
+ for k in range(2000):
+     print(k)
+
+                                                     F STRING IN PYTHON
+ letter ="my name is{} and i am from {}"
+ name="SAAD"
+ country="pakistan"
+  print(letter.format(name,country))
+ print(f"my name is{name} and i am from {country}")
+ price=123.333
+ txt=f"for only {price:.2f}   dollar!"
+ print(txt)
+  print(txt.format(price =12.3333))
+                                                        RECURRING IN PYTHOn
+ def factorial(n):
+     if(n==0 or n==1):
+         return 1
+     else:
+         return n * factorial(n-1)
+
+     print(factorial(3))
+
+  fibonachi series
+
+
+
+
+ def fibonacci(n):
+         if n == 0:
+             return 0
+         elif n == 1:
+             return 1
+         else:
+
+             return fibonacci(n - 1) + fibonacci(n - 2)   Recursive approach
+               print(fibonacci(6))
+               print(fibonacci(5))
+               print(fibonacci(4))
+               print(fibonacci(3))
+               print(fibonacci(2))
+               print(fibonacci(1))
+               print(fibonacci(0))
+ import math
+ from turtle import*
+ def hearta(k):
+     return 15*math.sin(k)**3
+ def heartb(k):
+     return 12*math.cos(k)-5*\
+            math.cos(2*k)-2*\
+            math.cos(3*k)-\
+            math.cos(4*k)
+ speed(0)
+ bgcolor("black")
+ for i in range(10000):
+     goto(hearta(i)*20,heartb(i)*20)
+     for j in range(5):
+         color("f73487")
+         goto(0,0)
+         done()
+
+ SET
+ a={1,2,3,2}
+ print(a)
+ saad=set()
+ print(type(saad))
+ a={1,2,3,4,5}
+ b={6,7,2,8}
+ print(a.union(b))
+ c={10,11,12,13,14}
+ d={15,16,17,18,10}
+ print(c.union(d))
+ from turtle import*
+ color('green')
+ bgcolor('black')
+ speed(12)
+ hideturtle()
+ b=0
+ while(b<200):
+     right(b)
+     forward(b*3)
+     b=b+1
+ from turtle import*
+ color('purple')
+ bgcolor('white ')
+ speed(15)
+ hideturtle()
+ b=0
+ while(b<200):
+     right(b)
+     forward(b*3)
+     b=b+1
+ from turtle import*
+ import colorsys
+
+ speed(0)
+ bgcolor('black')
+ hue=0.0
+ for i in range(160):
+     color=colorsys.hsv_to_rgb(hue,1,1)
+     pencolor(color)
+     hue+=0.005
+     rt(i)
+     circle(125,i)
+     fd(i)
+     rt(90)
+
+     done()
+
+ a={1,2,5,6}
+ b={3,6,7}
+ a.update(b)
+ print(a,b)
+ cities={"karachi","islamabad","quetta","khushab"}
+ cities2={"jbd","khushab","karachi","faisalabad","multan"}
+ city3=cities.union(cities2)
+ print(city3)
+
+
+ def calculategmean(a,b):
+  mean=(a*b)/(a+b)
+  print(mean)
+
+ a=3
+
+ if else statement
+ a=int(input("enter your age"))
+ print("your age is:",a,)
+ if (a>=18):
+     print("you can drive now")
+ else:
+     print("you cannot drive now")
+ class permutation:
+     a=int(input("enter the value of permutation no"))
+     if(a==1,2,):
+         print("this value is occured in permutation")
+         elif (a==3,2,):
+             print("these value is also occured ")
+          elif (a=="2","3"):
+         print("these value is occured"):
+ else:
+ print("these value is not occured")
+
+ b=permutation()
+ print(b.a)
+ from itertools import permutations
+ l = list(permutations(range(1, 4)))
+ print(l)
+
+
+
+ from itertools import permutations
+ array={1,2,3,4}
+ perm=permutations(array)
+ for p in perm:
+     print(p)
+
+ import math
+
+  Initialize n
+ n = 7
+
+  Initialize k
+ r= 5
+
+  Print the number of ways to choose k items from n items
+ print (math.perm(n, r))
+
+
+
+ list METHORD
+ l=[9,1,2,3,4,8]
+  l.sort(reverse=true)
+ l.reverse()
+ l.insert(2,78)
+ print(l)
+
+ l=[1,9,3,4,5,6,7,8]
+ print(l)
+ m=[22,29,30,40,50,51]
+ (l.extend(m))
+ print(l)
+                                          tuple
+ tup=(1,2,3,4,"saad","ali")
+ print(tup)
+ tup2=tup[1:5]
+ if 42 in tup:
+     print("yes it is available in tuple")
+ else:
+     print("it is not available in this tuple")
+ print(tup2)
+
+ tuple1=(0,1,2,3,1,2,3,4,5,6,6,7,7)
+ res=tuple1.count(3)
+
+
+ print(res)
+                                                                    project
+
+ import turtle
+ import colorsys
+ t=turtle.Turtle()
+ s=turtle.screen()
+ s.bgcolor('black')
+ t.speed(0)
+ n=50
+ h=0
+ for i in range(280):
+     c=colorsys.hsv_to_rgb(h,1,0.8)
+     h+=1
+     t.color(c)
+     t.forward(i*2)
+     t.left(145)
+                                                             function
+def gmean(a, b):
+    mean = (a*b)/(a+b)
+    print(mean)
+    a=9
+    b=7
+    gmean(a,b)
+    c=8
+    d=6
+    gmean(c,d)
+                                                      new program
+def greater(a,b):
+    mean = (a * b) / (a + b)
+    print(mean)
+
+    if(a>b):
+        print("a is greater than b")
+    else:
+        print("b is greater than a")
+        a=4
+        b=9
+        greater(a,b)
+                                                         find average
+ def average(a,b):
+     print("the average of two no is" +(a*b)/2)
+
+     average(3,5)
+ letter="hy I am {}and I lived in {}"
+ name="SAAD"
+ city="KHUSHAB"
+ print(letter.format(name,city))
+  print(f"hy I am {name}and I lived in {city}")
+ import turtle
+ turtle.bgcolor("black")
+ turtle.speed(0)
+
+ for i in range(5):
+     for colours in ['red','blue','indigo','cyan','pink','yellow']:
+         turtle.color(colours)
+         turtle.left(20)
+         turtle.forward(230)
+         turtle.left(100)
+         turtle.forward(230)
+         turtle.left(100)
+         turtle.forward(230)
+         turtle.left(100)
+         turtle.forward(230)
+         turtle.left(100)
+
+         turtle.done()
+                                print cylinder
+import calendar
+year=2023
+month=10
+x=calendar.month(year,month)
+print(x)
+                                  automatic whatsapp meseege
+ import random
+ import pyautogui as pg
+ import time
+
+ words=('donkey','dumb','idiot',)
+ time.sleep(12)
+
+ for i in range(100):
+     a=random.choice(words)
+     pg.write("you are a"+a)
+     pg.press('enter')
+                                   while loop
+ i=1
+ while(i<=5):
+     j=1
+     while(j<=i):
+         print('*', end =' ')
+         j = j+1
+
+     print()
+
+     i=i+1
+                                     for loop
+ a= "python programming"
+ for x in a:
+     print(x)
+     if x not in 'aeiou':
+         print(x)
+                                      list
+ a=list((120,130,140,150))
+ print(a)
+                                find the maximum no in list
+ marks=[120,130,140,150 ,220]
+ max=marks[0]
+ for m in marks:
+     if m > max:
+         max = m
+     print(max)
+                                 list to find even no
+ list=[]
+ a=[120,119,112,170,180,190]
+ for n in a:
+     if n % 2==0:
+         list.append(n)
+
+ print(list)
+                                  new program
+ a=[120,119,112,170,180,190]
+ even=[m for m in a if m%2==0]
+ print(even)
+                                          dictionary
+ person={
+     'name' : 'saad',
+     'rollno' :'2022-cs-28',
+     'section':'a'
+ }
+ print(person)
+ import turtle
+ turtle.bgcolor("black")
+ turtle.speed(60)
+
+ for i in range(80):
+     for colours in ['red','blue','indigo','cyan','pink','yellow']:
+         turtle.color(colours)
+         turtle.left(100)
+         turtle.forward(230)
+         turtle.left(100)
+         turtle.forward(230)
+         turtle.left(100)
+         turtle.forward(230)
+         turtle.left(100)
+         turtle.forward(230)
+         turtle.left(100)
+
+         turtle.done()
+                                               python table
+ a= input("enter the number:")
+ print(f"Multiplication table of {a}is:")
+ for i in range(1,11):
+     print(f"{int(a)}*{i}={int(a) * (i)}")
+
+                                           table of any no again
+
+ b=input("enter the no: ")
+ print(f"ultiplication table of {a}is:")
+ for i in range(1,11):
+     print(f"{int(a)}*{i}={int(a)*(i)}")
+                                             error find
+ def func1():
+     try:
+         l=[1,2,3,4]
+         i=int(input("enter the index no"))
+         print(l[i])
+         return(1)
+     except:
+         print("some error occured")
+     finally:
+         print("i am always executed")
+
+ x=func1()
+ print(x)
+                                             raise error
+ a=int(input("enter the value bteen 5 and 9"))
+ if(a<5 or a>9):
+     raise valueerror("value should be in 5 and 9")
+
+ program
+ x=10
+ def add():
+     x=3
+     x=x+3
+     print(x)
+     x = 4
+     print(x)
+                                         shorthand if and else
+ a=100
+ b=90
+ print("A")if(a>b) else print("=")
+ c= 9 if a>b else 0
+ print(c)
+                                 PROGRAM
+ totalno=400
+ math=80
+ urdu=45
+ physics=58
+ chemistry=70
+ print("your math marks is higher than urdu") if (math>urdu) else print("your math marks is not greater than urdu")
+
+                                         another
+ a=int(input("enter no"))
+ b=int(input("enter the second no"))
+ print("b is greater than a") if (b>a) else print("a is greater than b")
+                                         ENUMERATE FUNCTION
+ this is simple program
+ marks=[12,34,67,89,98]
+ for mark in marks:
+     print(mark)
+     if(index==2):
+         print("saad gain good marks"
+     index +=1
+                                                 using enumerate module
+ this is simple program
+ marks=[12,34,67,89,98]
+ for index, mark in enumerate(marks,start=1):
+     print(mark)
+     if(index==2):
+         print("saad gain good marks")
+                                                import function
+ from math import sqrt
+ result= sqrt(9)
+ print(result)
+
+ from math import *
+ result=sqrt(9)
+ print(result)
+ print(pi)
+
+ import math as m
+ result =m.sqrt(9)*m.pi
+ print(result)
+                                        all built in module in math
+ import math
+ print(dir(math))
+
+ from ali import welcome,ali
+  import math
+  print(dir(math))
+ welcome()
+ print(ali)
+                                                 program
+
+
+
+
+
+
+ str = input("Enter Your Code: ")
+ if (len(str) >=3):
+     r1 = "sss"
+     r2 = "ggg"
+     str = r1 + str[1:] + str[0] + r2
+
+ else:
+     if (len(str) < 3):
+         str = str[1:] + str[0]
+ print(str)
+  Decoding Part
+ if (len(str) >= 3):
+     str = str[2:] + str[7:]
+
+ print(str)
+                                                     local and global variable
+a=10
+
+ def func():
+     global a
+     a=9
+     y=5
+     print(y)
+
+ func()
+ print(a)
+                                                     file IO in python
+                                                   THIS IS A READING FILE
+ a=open('my file.txt','r')
+ text=a.read()
+ print(text)
+ a.close()
+
+                                            another file
+ a=  open('my file.txt','a')
+ a.write('hello word')
+ a.close()
+
+ with open('my file.txt','a') as a:
+     a.write("hey i am good")
+
+                                          read readline and other ,methord
+ f=open('my file.txt','r')
+ i=0
+ while True:
+     i=i + 1
+     line = f.readline()
+     if not line:
+         break
+     m1=line.split(",")[0]
+     m2 = line.split(",")[1]
+     m3 = line.split(",")[2]
+     print(f"the marks of student {i} in math is:{m1}")
+     print(f"the marks of student {i} in english is:{m2}")
+     print(f"the marks of student {i} in sst is:{m3}")
+     if not line:
+         break
+     print(line)
+                                    seek()/tell() function
+ with open('my file.txt','r') as f:
+  print(type(f))
+  f.seek(9)
+  print(f.tell())
+
+
+  data=f.read(5)
+  print(data)
+
+ with open('my file3.txt','w') as f:
+     f.write("hello word")
+     f.truncate(5)
+
+ with open('my file3.txt','r') as f:
+     print(f.read())
+                                        lambda function
+a=lambda x: x*2
+b=lambda x: x*x+x
+print(a(10))
+print(b(3))
+avg=lambda x,y:(x+y)/2
+print(avg(3,5))
+
+avg=lambda x,y:(x+y)/2
+print(avg(3,5))
+
+ def appl(fx,value):
+     return 6+fx(value)
+
+
+ print (appl(9,2))
+                                         MAP FILTER AND REDUCE
+ def cube(x):
+     return x*x*x
+
+
+ print(cube(2))
+
+
+L=[1,3,4,5]
+newl= list(map(lambda x: x*x*x, L))
+print(newl)
+                                      FILTER
+def filterfunction(x):
+ return x>=4
+
+newnewl=list(filter(filterfunction,L))
+print(newnewl)
+
+                                        reduce
+from functools import reduce
+
+number=[1,2,3,4,5]
+def sum(x,y):
+    return x+y
+
+sum=reduce(sum,number)
+print(sum)
+
+ from functools import reduce
+ n=[3,4,5,6,7]
+ def sum(x,y):
+     return x+y
+ sum=reduce(sum,n)
+ print(sum)
+                                     is vs == in python
+ a=9
+ b="9"
+ print(a is b)
+ print(a==b)
+ a=[1,2,3,4]
+ b=[1,2,3,4]
+ print(a is b)
+  (it can find the exact location of the object)
+ print(a==b)
+ (value)
+
+ a=3
+ b=3
+ print(a is b)
+ print(a==b)
+
+ a=None
+ b=None
+ print(a is b)
+ print(a is None)
+ print(a==b)
+
+                        snake water gun
+ import random
+ def check(comp,user):
+     if comp==user:
+         return 0
+     if(comp==0 and user==1):
+         return -1
+     if (comp == 1 and user == 2):
+         return -1
+     if (comp == 2 and user == 0):
+         return -1
+     return 1
+
+ comp=(random.randint(0,2))
+ print("choose 0,1,2")
+ user=int(input("0 for snake, 1 for water and 2 for gun:\n"))
+ score=check(comp,user)
+ print("you:",user)
+ print("computer:",comp)
+ if(score==0):
+     print("its draw")
+ elif(score==-1):
+         print("you win")
+ else:
+     print("you win")
+                                     class /object
+ class person:
+     name="SAADALI"
+     rollno="2022-cs-28"
+     program="COMPUTER SCIENCE"
+     def info(self):
+         print(f"{self.name} is a good{self.program}student.its rollno is {self.rollno}")
+
+ a= person()
+ print(a.name,a.rollno,a.program)
+ a.info()
+
+                                   constructor
+ class person:
+     def __init__(self,n,o):
+          print("I  am a good boy ")
+         self.name=n
+         self.occ=o
+
+     def info(self):
+          print(f" {self.name}is a good {self.occ}")
+           print(f"{self.name}is a good {self.occ}")
+
+ a=person("saad ali","programmer")
+ b=person("ali","app developer")
+ a.info()
+ b.info()
+                                 decorator
+ def greet(fx):
+     def mfx():
+         print("good morning")
+         fx()
+         print("thanks for using this function")
+         return mfx
+
+ @greet
+ def hello():
+     print("hello word")
+
+ def add(a, b):
+         print(a+b)
+
+ hello()
+                        getter ans setter in python
+ class myclass:
+     def __init__(self,value):
+         self.value=value
+     def show(self):
+      print(f"value is {self.value}")
+     @ property
+     def tenvalue(self):
+         return 10* self.value
+
+ obj=myclass(10)
+  obj.tenvalue
+ obj.show()
+ print(obj.tenvalue)
+
+ class myclass:
+     def __init__(self,value):
+         self.value=value
+     def show(self):
+         print(f"value is {self.value}")
+     @property
+     def tenvalue(self):
+         return 20* self.value
+     @tenvalue.setter
+     def tenname(self,newvalue):
+         self.value=newvalue/10
+
+
+ obj=myclass(20)
+
+                                                 again getter practice
+
+ class employee:
+     def __init__(self,id,name):
+         self.id=id
+         self.name=name
+     def show(self):
+         print(f"the name of employee is:{self.name} is {self.id}")
+ class programmer(employee):
+     print("the default programmer is python")
+
+ e=employee("SAAD","402")
+ e.show()
+ e.programmer()
+                                           practice again inheritance
+ class employee():
+     def __init__(self,physics,urdu):
+         self.physics=physics
+         self.urdu=urdu
+     def show(self):
+         print(f"the physics books are {self.physics} and The urdu books are {self.urdu} ")
+ class math(employee):
+    print("selct the books ")
+
+
+ a=employee("physics9,physics10,physics11,pysics12","urdu9,urdu10,urdu11,urdu12")
+ a.show()
+ a.math()
+                                 library managment:
+ class library:
+     def __init__(self):
+         self.nobooks =0
+         self.books=[]
+     def addbook(self,book):
+        self.books.append(book)
+        self.nobooks=len(self.books)
+
+     def show(self):
+          print(f"the library has{self.nobooks} books")
+
+ li=library()
+ li.addbook("harryporter")
+ li.show()
+
+                          static methord in python
+ class math:
+     def __init__(self,num):
+       self.num=num
+
+     def addno(self,n):
+       self.num = self.num + n
+
+     @staticmethod
+     def add(a, b):
+         return a + b
+
+ a=math(5)
+ print(a.num)
+ a.addno(6)
+ print(a.num)
+ print (math.add(9,4))
+                        instance variable/class variable
+ class employee:
+     program="COMPUTER SCIENCE"
+     def __init__(self,name):
+         self.name=name
+         self.rollno=28
+     def showdetail(self):
+         print(f"the most favourite student name is {self.name} and the roll no is {self.rollno}.And its department is {self.program}")
+
+ obj=employee("SAAD")
+ obj.rollno=29
+ obj.program="IT"
+ obj.showdetail()
+ obj1=employee("ali")
+ obj1.rollno=65
+ obj1.program="software engineering"
+ obj1.showdetail()
+                        library managment
+ class library:
+     def __init__(self):
+         self.noofbooks= 0
+         self.books=[]
+     def addbooks(self,book):
+         self.books.append(book)
+         self.noofbooks=len(self.books)
+     def showbook(self):
+         print(f"the library has {self.noofbooks}books.THE books are")
+         for book in self.books:
+             print(book)
+
+ object=library()
+ object.addbooks("harryportar")
+ object.addbooks("ATOMICHABITS")
+ object.showbook()
+
+ os module again
+ import os
+
+
+ if(not os.path.exists("file")):
+     os.mkdir("file")
+
+ for i in range(0, 100):
+     os.mkdir(f"file/day{i+1}")
+                                    class methord in python
+ class employee:
+     company="apple"
+     def show(self):
+         print(f"the name of man is {self.name} and its company is {self.company}")
+     @classmethod
+     def changecompany(cls,newcompany):
+         cls.company=newcompany
+ obj=employee()
+ obj.name="saad"
+ obj.show()
+ obj.changecompany("tesla")
+ obj.show()
+ print(employee.company)
+                                     dict methord
+ class person:
+     def __init__(self,name,rollno):
+         self.name=name
+         self.rollno=rollno
+         self.version=1
+
+ a=person("saad",28)
+ print(a.__dict__)
+ print(help(person))
+                                   super keyword in python
+ class parentclass:
+     def parentmethord(self):
+         print("this is a parent methord")
+
+ class childclass(parentclass):
+      def parentmethord(self):
+          print("saad")
+          super().parentmethord()
+     def childmethord(self):
+         print("I am a student of MNS UET MULTAN")
+         super().parentmethord()
+
+ a=childclass()
+ a.childmethord()
+
+                                  other program
+ class employee:
+     def __init__(self,name,id):
+         self.name=name
+         self.id=id
+ class programmer(employee):
+     def __init__(self,name,id,lang):
+         super().__init__(name,id)
+         self.lang=lang
+
+ a=programmer("saad",123,"python")
+ print(a.name)
+ print(a.id)
+ print(a.lang )
+                            magic/dunder methord
+ from imp import employee
+
+
+
+
+ e=employee("Saad Ali","2022-cs-28")
+ print(e)
+ print(str(e))
+ print(repr(e))
+ e()
+ print(e.name)
+ print(len(e))
+
+ class employee:
+     name="saad"
+     def __len__(self):
+         i=0
+         for c in self.name:
+             i=i+1
+             return i
+ e=employee()
+ print(e.name)
+ print(len(e))
+
+                             methord overloading
+ class vector:
+     def __init__(self,i,j,k):
+         self.i=i
+         self.j=j
+         self.k=k
+     def __str__(self):
+         return f"{self.i}i +{self.j}j +{self.k}k"
+     def __add__(self, x):
+         return vector(self.i+ x.i, + self.j+ x.j, + self.k+ x.k)
+
+ v=vector(5,6,7)
+ print(v)
+ v2=vector(2,9,5)
+ print(v2)
+
+ print(v+v2)
+
+                             program
+ class vector:
+     def __init__(self,i,j,k):
+         self.i=i
+         self.j=j
+         self.k=k
+     def __str__(self):
+         return f"{self.i}i+ {self.j}j +{self.k}k"
+     def __sub__(self, x):
+         return vector(self.i- x.i,self.j- x.j,self.k-x.k)
+
+
+ v=vector(3,8,9)
+ print(v)
+ v1=vector(4,9,8)
+ print(v1)
+
+ print(v-v1)
+                                single inheritance in python
+ class animal:
+     def __init__(self,name,specie):
+         self.name=name
+         self.specie=specie
+     def sound(self):
+         print("sound make by animal")
+ class dog(animal):
+      def __init__ (self,name,breed):
+          animal.__init__(self,name,specie="dog")
+          self.breed=breed
+      def sound(self):
+          print("bark")
+
+ a=dog("dog","doggerman")
+ a.sound()
+ a=animal("dog","german")
+ a.sound()
+                   again
+ class animal:
+     def __init____(self,name,color):
+         self.name=name
+         self.color=color
+     def sound(self):
+         print(f"I have a {self.name} and his color is (self.color)")
+ class cat(animal):
+     def __init__(self,name,age):
+         animal.__init__(self,name,color="gray")
+         self.age=age
+     def sound(self):
+         print(f"I have a {self.name} whose color is {self.color} and whose age is {self.age}")
+
+ a=animal("dog","black")
+ a.sound()
+ b=cat("cat",3)
+ b.sound()
+ class animal:
+
+  def __init__(self, name, color):
+     self.name = name
+     self.color = color
+
+  def details(self):
+     print(f"i have a {self.name} which is {self.color} in color")
+
+
+ class cat(animal):
+
+   def __init__(self, name,  age):
+     animal.__init__(self, name,color="gray")
+     self.age = age
+
+   def details(self):
+     print(
+       f"i have a {self.name} which is {self.color} in color whoes age is {self.age}"
+     )
+
+
+ ani = animal('buffalow', 'black and white')
+ ani.details()
+
+ ani1 = cat('cat',3)
+ ani1.details()
+                       multiple inheritance
+ class employee:
+     def __init__(self):
+         self.name=name
+     def show(self):
+         print(f"The name of employee is {self.name}")
+ class dancer:
+     def __init__(self,dancer):
+         self.dancer=dancer
+     def show1(self):
+         print(f"The name of the dancer is {self.dancer}")
+
+ class dancer_employee(employee,dancer):
+     def __init__(self,dance,name):
+         self.dance=dance
+         self.name=name
+
+  o=dancer_employee("koinhi","ali")
+  print(o.name)
+  print(o.dance)
+  o1=dancer("hoor")
+   print(o1.dancer
+  o1.show1()
+ o2=employee("king")
+ o2.show()
+                              multi level inheritance
+ class animal:
+     def __init__(self,name,specie):
+         self.name=name
+         self.specie=specie
+     def show_detail(self):
+         print(f"Name:{self.name}")
+         print(f"specie:{self.specie}")
+ class dog(animal):
+     def __init__(self,name,breed):
+         animal.__init__(self,name, specie="dog")
+         self.breed=breed
+
+ class german(dog):
+     def __init__(self,name,color):
+         dog.__init__(self,name, breed="german")
+         self.color=color
+     def show_detail(self):
+          dog.show_detail(self)
+          print(f"color:{self.color}")
+          print(f"breed:{self.breed}")
+
+ a=german("tommy","black")
+ a.show_detail()
+                                             mean
+ import statistics as st
+
+ print(st.mean([10,9.7,40,50,60]))
+ print(st.mean([12.3,13.7,18.9,20.14]))
+                                              median
+ import statistics as st
+ print(st.median([12,34,56,89,90,90,97,7]))
+ print(st.mode([12,78,90,67]))
+
+                             hybrid and hieraricl inheritance
+ class base_class():
+     def __init__(self,company,employee):
+         self.company=company
+         self.employee=employee
+     def show(self):
+         print(f"THE company is {self.company} and its employee is {self.employee}")
+ class derived_class1(base_class):
+     def __init__(self,company,age):
+         derived_class.__init__(self,name,employee="SAAD ALI")
+         self.age=age
+ class derived_class2(base_class):
+     def __init__(self,company,married):
+         derived_class2.__init__(self,company,age="20")
+         self.married=married
+ class derived_class3(base_class):
+     def __init__(self,company,child):
+         derived_class3.__init__(self,company,married="single")
+         self.child=child
+     def show(self):
+         base_class.show()
+         print(f"the child are {self.child}")
+
+ a=derived_class3("apple",3)
+ a.show()
+ class base_class():
+     def __init__(self, company, employee):
+         self.company = company
+         self.employee = employee
+
+     def show(self):
+         print(f"THE company:{self.company}  employee: {self.employee}")
+
+ class derived_class1(base_class):
+     def __init__(self, company, age):
+         base_class.__init__(self, company, employee="SAAD ALI")
+         self.age = age
+
+ class derived_class2(base_class):
+     def __init__(self, company, married):
+         base_class.__init__(self, company, employee="SAAD ALI")
+         self.married=married
+         def show1(self):
+           print(f"married:{self.married}")
+
+ class derived_class3(base_class):
+     def __init__(self, company, child):
+         base_class.__init__(self, company, employee="SAAD ALI")
+         self.child = child
+
+     def show(self):
+         super().show()
+         print(f"child: {self.child}")
+
+ a = derived_class3("apple", 3)
+ a.show()
+ class base_class():
+     def __init__(self, company, employee):
+         self.company = company
+         self.employee = employee
+
+     def show(self):
+         print(f"THE company is {self.company}, its employee is {self.employee}")
+
+ class derived_class1(base_class):
+     def __init__(self, company, age):
+         base_class.__init__(self, company, employee="SAAD ALI")
+         self.age = age
+
+ class derived_class2(base_class):
+     def __init__(self, company, married):
+         base_class.__init__(self, company, employee="SAAD ALI")
+         self.married = married
+
+     def show(self):
+         super().show()
+         print(f"and is married: {self.married}")
+
+ class derived_class3(base_class):
+     def __init__(self, company, child):
+         base_class.__init__(self, company, employee="SAAD ALI")
+         self.child = child
+
+     def show(self):
+         super().show()
+         print(f"and has {self.child} children")
+
+ a = derived_class3("apple", 3)
+ a.show()
+
+ b = derived_class2("apple", "single")
+ b.show()
+
+ import win32com.client as wincl
+ a=["saad","ali","hamid"]
+ print(a)
+
+ speaker_number = 1
+ spk = wincl.Dispatch("SAPI.SpVoice")
+ vcs = spk.GetVoices()
+ SVSFlag = 11
+ print(vcs.Item (speaker_number) .GetAttribute ("Name"))  speaker name
+ spk.Voice
+ spk.SetVoice(vcs.Item(speaker_number))  set voice (see Windows Text-to-Speech settings)
+ spk.Speak("shout out")
+
+                         time module
+
+ import time
+ t=time.localtime()
+ a=time.strftime("%y-%m-%d %H:%M:%S",t)
+ print(a)
+
+
+ import time
+
+  seconds passed since epoch
+ seconds = 1672215379.5045543
+
+  convert the time in seconds since the epoch to a readable format
+ local_time = time.ctime(seconds)
+
+ print("Local time:", local_time)
+                              creting command line utility
+ import argparse
+ import request
+ def download_file(url,local_filename):
+      NOTE the stream=True parameter below
+     with requests.get(url, stream=True) as r:
+         r.raise_for_status()
+         with open(local_filename, 'wb') as f:
+             for chunk in r.iter_content(chunk_size=8192):
+                  If you have chunk encoded response uncomment if
+                  and set chunk_size parameter to None.
+                 if chunk:
+                 f.write(chunk)
+     return local_filename
+ parser=argparse.ArgumentParser()
+ parser.add_argument("url",help="url pof the file to download")
+ parser.add_argument("output",help="by which name do u want to save your file")
+ args=parser.parse_args()
+
+ print(args.url)
+ print(args.output)
+ download_file(args.url,args.output)
+                  walrus operator
+ no=[1,2,3,4,5]
+  while(n:=len(no))>0:
+      print(no.pop())
+
+ foods=list()
+ while(food:=input("which food do u like")) !="quit":
+     foods.append(food)
+
+                             shutil modul
+ import shutil
+ import os                                   it can be used to copy the file
+ shutil.copy2("main.py","zain.py")
+                                    it can be copy the folder
+ shutil.copytree("conert picture","saad.py")
+                                  it can be move the folder file in to another file
+ shutil.move("main2.py","main.py")
+                                    it can be delete rthe file or folder
+ os.remove("imp.py")
+                           request module
+ import requests
+ responce=requests.get("https://www.google.com")
+ print(responce.text)
+ import requests
+ response = requests.post('https://httpbin.org/post', data = {'key':'value'})
+ print(response.text)
+
+ Output:
+ The server's response to your POST request
+ import requests
+ import datetime
+
+  Replace 'YOUR_API_KEY' with the API key obtained from News API
+ NEWS_API_KEY = 'YOUR_API_KEY'
+
+
+ def fetch_news(topic):
+      Set up the News API endpoint URL
+     news_api_url = 'https://newsapi.org/v2/top-headlines'
+
+      Set the parameters for the request (you can customize these as needed)
+     params = {
+         'apiKey': NEWS_API_KEY,
+         'country': 'us',   You can change the country code if needed
+         'category': topic,
+         'pageSize': 5,   Number of articles to retrieve
+     }
+
+      Make the request to the News API
+     response = requests.get(news_api_url, params=params)
+
+      Check if the request was successful (status code 200)
+     if response.status_code == 200:
+          Parse and print the news articles
+         articles = response.json().get('articles', [])
+         print(f"Top 5 {topic.capitalize()} News Headlines:")
+         for idx, article in enumerate(articles, start=1):
+             print(f"{idx}. {article['title']} - {article['url']}")
+     else:
+         print(f"Error: Unable to fetch news. Status code: {response.status_code}")
+
+
+ if __name__ == "__main__":
+      List of topics you are interested in
+     topics = ['business', 'technology', 'health', 'science', 'sports']
+
+      Fetch news for each topic
+     for topic in topics:
+         fetch_news(topic)
+         print("\n" + "=" * 50 + "\n")   Separate news from different topics
+ import os
+ import time
+ repeat_interval=10
+ while True:
+     command=" osascript -e \'say \"hy SAAD DRINK WATER\"\'; osascript -e \'display alert \"HY SAAD, DRINK WATER\"\'"
+     os.system(command)
+     time.sleep(repeat_interval)
+ master = input("What is the master password? ")
+
+ def view():
+     with open('password.txt', 'r') as f:
+         passwords = f.readlines()
+         for password in passwords:
+             print(password)
+
+ def add():
+     name = input('Account Name: ')
+     pwd = input("Password: ")
+
+     with open('password.txt', 'a') as f:
+         f.write(name + " " + pwd + "\n")
+
+ while True:
+     mode = input("Would you like to add a new password or view existing (view, add), press q to quit? ").lower()
+     if mode == "q":
+         break
+     elif mode == "view":
+         view()
+     elif mode == "add":
+         add()
+     else:
+         print("Invalid mode.")
+         continue
+
+fruits=('orange','Apple','kiwi','orange')
+for w in fruits:
+print('orange' in w)
